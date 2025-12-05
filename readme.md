@@ -1,13 +1,13 @@
-### 🕹️ **RetroTune AI: The Expert Retrogaming QA Assistant**
+## 🕹️ **RetroTune AI: The Expert Retrogaming QA Assistant**
 
-#### **Project Overview**
+### **Project Overview**
 
 RetroTune AI is a specialized, hybrid conversational agent designed to solve the complex technical challenges of modern retrogaming. It provides bespoke advice on tuning classic video games and emulators (like PCSX2, Dolphin, and RetroArch) for modern hardware, such as 4K displays and high-refresh-rate monitors.
 
 The agent operates using a Retrieval-Augmented Generation (RAG) pipeline combined with dynamic Google Search, ensuring it provides accurate, up-to-date, and context-specific configuration advice.
 
 
-#### 🚀 **Technical Summary and Architecture**
+### 🚀 **Technical Summary and Architecture**
 
 1. Core Components
 
@@ -35,7 +35,7 @@ Spec Gathering (PC/Mac): If PC/Mac is chosen, the agent critically asks for the 
 
 Advice Generation: Once context is gathered, the agent uses its RAG/Search tools to formulate the best tuning advice.
 
-📁 Repository Structure
+### **📁 Repository Structure**
 
 The project structure is organized as follows:
 
@@ -56,7 +56,7 @@ The project structure is organized as follows:
 └── retrogaming_knowledge_cached.csv # Cached raw data before chunking/embedding
 
 
-#### **💾 Dataset and Ingestion Pipeline**
+### **💾 Dataset and Ingestion Pipeline**
 
 The project's knowledge base is crucial for specialized advice.
 
@@ -74,7 +74,7 @@ Embedding: Chunks were embedded using text-embedding-ada-002.
 
 Vector Store: All processed embeddings are stored in the persistent local vector database, ChromaDB (chroma_db_retrogaming/).
 
-#### **📚 Key Resources (Source Knowledge)**
+### **📚 Key Resources (Source Knowledge)**
 
 The core knowledge base consists of specialized technical information:
 
@@ -84,7 +84,7 @@ Video Tutorials: Transcripts from expert YouTube channels covering retro-hardwar
 
 Dynamic Source: Google Search API provides real-time access to the latest patches and community findings not present in the static RAG database.
 
-#### **🧪 Evaluation**
+### **🧪 Evaluation**
 
 The quality of the conversational agent was rigorously tested using an automated evaluation pipeline:
 
@@ -100,7 +100,7 @@ Similarity: Measured the lexical similarity between the prediction and the human
 
 Improvement: Evaluation runs helped fine-tune the system prompt, specifically by enforcing the priority of RAG over Google Search for stable configuration data.
 
-#### **📦 Libraries Used**
+### **📦 Libraries Used**
 
 The project relies on the following key Python libraries, managed via requirements.txt:
 
@@ -144,7 +144,7 @@ pydantic
 
 Data validation and schema definition across LangChain components.
 
-#### **🛠️ Setup and Installation**
+### **🛠️ Setup and Installation**
 
 Prerequisites
 
@@ -173,6 +173,6 @@ Install all required packages using the generated requirements.txt:
 pip install -r requirements.txt
 
 
-#### 🙏 **Acknowledgements**
+### 🙏 **Acknowledgements**
 
 This project was developed as a capstone for the IronHack AI full time October 2025 Bootcamp and relies heavily on the open-source contributions of the LangChain ecosystem and the rich resources provided by the retro-gaming community's official documentation and technical video creators.
