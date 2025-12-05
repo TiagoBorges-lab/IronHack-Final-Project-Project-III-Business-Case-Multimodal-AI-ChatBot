@@ -1,5 +1,7 @@
 ## 🕹️ **RetroTune AI: The Expert Retrogaming QA Assistant**
 
+## **<i>Important Notice</i>: This project is being evaluated so it is still subject to changes if ordered by the bootcamp's teachers**
+
 ### **Project Overview**
 
 RetroTune AI is a specialized, hybrid conversational agent designed to solve the complex technical challenges of modern retrogaming. It provides bespoke advice on tuning classic video games and emulators (like PCSX2, Dolphin, and RetroArch) for modern hardware, such as 4K displays and high-refresh-rate monitors.
